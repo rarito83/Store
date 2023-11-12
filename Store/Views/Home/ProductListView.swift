@@ -12,6 +12,7 @@ struct ProductListView: View {
     @EnvironmentObject private var controller: StoreController
     let category: CategoryModel
     @State private var searchText = ""
+    @State private var showFavoritesOnly = false
     
     var body: some View {
         VStack {
@@ -53,6 +54,13 @@ struct ProductListView: View {
                 }
             }
             .navigationTitle(category.name)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Toggle(isOn: $showFavoritesOnly) {
+                        Text("Favorites")
+                    }
+                }
+            }
         }
     }
 }

@@ -15,8 +15,6 @@
 		8D819B092B003DB600EF5BB7 /* StoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D819B082B003DB600EF5BB7 /* StoreUITestsLaunchTests.swift */; };
 		8D819B192B0040F200EF5BB7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D819B182B0040F200EF5BB7 /* HomeView.swift */; };
 		8D819B1B2B006FB800EF5BB7 /* StoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D819B1A2B006FB800EF5BB7 /* StoreController.swift */; };
-		8D819B1D2B0073AF00EF5BB7 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D819B1C2B0073AF00EF5BB7 /* FavoriteView.swift */; };
-		8D819B1F2B0073BC00EF5BB7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D819B1E2B0073BC00EF5BB7 /* ProfileView.swift */; };
 		8D819B262B00782900EF5BB7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D819B252B00782900EF5BB7 /* SearchBar.swift */; };
 		8D819B282B00A4D200EF5BB7 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D819B272B00A4D200EF5BB7 /* CategoryModel.swift */; };
 		8D819B2A2B00A53A00EF5BB7 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D819B292B00A53A00EF5BB7 /* ProductModel.swift */; };
@@ -57,8 +55,6 @@
 		8D819B082B003DB600EF5BB7 /* StoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8D819B182B0040F200EF5BB7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		8D819B1A2B006FB800EF5BB7 /* StoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreController.swift; sourceTree = "<group>"; };
-		8D819B1C2B0073AF00EF5BB7 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
-		8D819B1E2B0073BC00EF5BB7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		8D819B252B00782900EF5BB7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		8D819B272B00A4D200EF5BB7 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
 		8D819B292B00A53A00EF5BB7 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
@@ -158,8 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				8D819B212B0073E000EF5BB7 /* Home */,
-				8D819B222B0073EE00EF5BB7 /* Favorite */,
-				8D819B232B00740000EF5BB7 /* Profile */,
 				8D819B242B0077D600EF5BB7 /* Component */,
 				8D819B352B00BD0700EF5BB7 /* DetailProductView.swift */,
 			);
@@ -199,22 +193,6 @@
 				8D819B332B00BBD200EF5BB7 /* ProductListView.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		8D819B222B0073EE00EF5BB7 /* Favorite */ = {
-			isa = PBXGroup;
-			children = (
-				8D819B1C2B0073AF00EF5BB7 /* FavoriteView.swift */,
-			);
-			path = Favorite;
-			sourceTree = "<group>";
-		};
-		8D819B232B00740000EF5BB7 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				8D819B1E2B0073BC00EF5BB7 /* ProfileView.swift */,
-			);
-			path = Profile;
 			sourceTree = "<group>";
 		};
 		8D819B242B0077D600EF5BB7 /* Component */ = {
@@ -380,12 +358,10 @@
 				8D819B2A2B00A53A00EF5BB7 /* ProductModel.swift in Sources */,
 				8D819B2D2B00A61100EF5BB7 /* URL+Ext.swift in Sources */,
 				8D819B2F2B00A8D500EF5BB7 /* HTTPClient.swift in Sources */,
-				8D819B1D2B0073AF00EF5BB7 /* FavoriteView.swift in Sources */,
 				8D819B382B00C66300EF5BB7 /* ItemProductView.swift in Sources */,
 				8D819B362B00BD0700EF5BB7 /* DetailProductView.swift in Sources */,
 				8D819B342B00BBD200EF5BB7 /* ProductListView.swift in Sources */,
 				8D819B282B00A4D200EF5BB7 /* CategoryModel.swift in Sources */,
-				8D819B1F2B0073BC00EF5BB7 /* ProfileView.swift in Sources */,
 				8D819AEC2B003DB300EF5BB7 /* StoreApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
