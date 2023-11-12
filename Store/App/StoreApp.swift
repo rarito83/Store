@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct StoreApp: App {
+    
+    @StateObject private var controller = StoreController()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(controller)
         }
     }
 }
